@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propel Paradise</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f7f7f7;
+            color: #333;
+            line-height: 1.6;
+        }
+        h1, h2, h3 {
+            color: #007BFF;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .products {
+            display: flex; /* Use Flexbox to align items */
+            flex-wrap: wrap; /* Allow items to wrap to a new line */
+            justify-content: space-between; /* Space between items */
+        }
+
+        .product {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px;
+            background-color: #fff;
+            width: 200px; /* Adjust width */
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            height: 300px; /* Set height to ensure all text fits */
+        }
+        .product img {
+            width: 80%;
+            max-height: 100px; /* Set a max height for images */
+            margin-bottom: 10px; /* Space between image and text */
+        }
+        .pricing {
+            font-size: 1.5em;
+            color: #28A745;
+        }
+        .order-button {
+            display: inline-block; /* Make sure to display it as a block for alignment */
+            text-align: center; /* Center the text */
+            text-decoration: none; /* Remove underline */
+            border-radius: 5px; /* Round the edges */
+            padding: 10px 20px; /* Padding for the button */
+            background-color: #007BFF; /* Button color */
+            color: white; /* Text color */
+            font-size: 1em; /* Font size */
+            margin-top: 10px; /* Margin above the button */
+        }
+        .order-button:hover {
+            background-color: #0056b3; /* Darker color when hovered */
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #555;
+        }
+        /* New styles for testimonials */
+        .testimonial {
+            border-left: 3px solid #28A745; /* Green left border */
+            padding: 10px 15px; /* Padding for testimonial */
+            margin: 10px 0; /* Margin between testimonials */
+            font-style: italic; /* Italic text style */
+        }
+        .rating {
+            color: #FFD700; /* Gold color for star ratings */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Welcome to Propel Paradise!</h1>
+        
+        <h2>Why Choose Propel Paradise?</h2>
+        <p>At Propel Paradise, we understand the need for a product that not only tastes good but also works effectively to keep you hydrated and energized throughout your day. Whether you're an athlete pushing your limits or just someone who enjoys an active lifestyle, Propel Paradise is here to support your health and wellness goals.</p>
+
+        <h3>Ingredients You Can Trust</h3>
+        <p>Propel Paradise is crafted with a blend of wholesome, natural ingredients to ensure you’re fueling your body the right way. Here's a detailed look at what makes our drink special:</p>
+        <ul>
+            <li><strong>Electrolytes:</strong> Essential minerals like sodium, potassium, and magnesium help maintain your body's fluid balance and prevent dehydration.</li>
+            <li><strong>Vitamins:</strong> Our proprietary formula includes vitamins B3, B5, B6, and B12, which are vital for energy production and metabolism, ensuring that you feel your best.</li>
+            <li><strong>Natural Flavors:</strong> Enjoy a burst of flavor without the guilt. We use only natural flavors and sweeteners with no added sugars.</li>
+            <li><strong>No Calories:</strong> Propel Paradise is a guilt-free way to hydrate, boasting zero calories per serving!</li>
+        </ul>
+
+        <h3>Experience the Benefits</h3>
+        <p>Choosing Propel Paradise means choosing a healthier lifestyle. Here are just a few benefits you'll experience:</p>
+        <ul>
+            <li><strong>Improved Hydration:</strong> Propel Paradise helps replenish lost fluids and electrolytes during intense workouts or hot days.</li>
+            <li><strong>Supports Active Lifestyles:</strong> Whether you’re hitting the gym, going for a run, or just enjoying a day out, Propel Paradise keeps you energized and refreshed.</li>
+            <li><strong>Enhances Recovery:</strong> With essential nutrients, Propel Paradise aids in quicker recovery times post-exercise.</li>
+            <li><strong>Convenient & Portable:</strong> Perfectly packaged for on-the-go hydration—just grab and go!</li>
+        </ul>
+
+        <h3>Reasons to Buy Propel Paradise</h3>
+        <ul>
+            <li>Convenient way to stay hydrated anywhere, anytime.</li>
+            <li>Delicious flavors that make drinking water exciting.</li>
+            <li>Supports your fitness goals with essential vitamins and minerals.</li>
+            <li>Affordable pricing for high-quality hydration solutions.</li>
+            <li>Join a community of health-conscious individuals.</li>
+        </ul>
+
+        <h3>Flavor Varieties</h3>
+        <p>With Propel Paradise, you’ll never get bored! Choose from an array of delicious flavors that will tantalize your taste buds:</p>
+        
+        <div class="products">
+            <div class="product">
+                <img src="https://m.media-amazon.com/images/I/61ge9ZtgMFL._SX679_PIbundle-20,TopRight,0,0_AA679SH20_.jpg" alt="Watermelon">
+                <p><strong>Watermelon</strong></p>
+                <p>Experience a refreshing burst of summer with the sweet taste of watermelon!</p>
+            </div>
+            
+            <div class="product">
+                <img src="https://m.media-amazon.com/images/I/41-WaFk2ozL._SX300_SY300_QL70_FMwebp_.jpg" alt="Kiwi Strawberry">
+                <p><strong>Kiwi Strawberry</strong></p>
+                <p>A perfect blend of tart kiwi and sweet strawberry for a delightful treat!</p>
+            </div>
+            
+            <div class="product">
+                <img src="https://m.media-amazon.com/images/I/41wckkg7LDL._SX300_SY300_QL70_FMwebp_.jpg" alt="Berry">
+                <p><strong>Berry</strong></p>
+                <p>Indulge in the sweet and tangy flavors of your favorite mixed berries.</p>
+            </div>
+            
+            <div class="product">
+                <img src="https://m.media-amazon.com/images/I/41npMTtCE0L._SX300_SY300_QL70_FMwebp_.jpg" alt="Orange Raspberry">
+                <p><strong>Orange Raspberry</strong></p>
+                <p>A refreshing combination of zesty orange and juicy raspberry.</p>
+            </div>
+            
+            <div class="product">
+                <img src="https://m.media-amazon.com/images/I/41QAdcGq1DL._SX300_SY300_QL70_FMwebp_.jpg" alt="Grape">
+                <p><strong>Grape</strong></p>
+                <p>Rich, sweet grape flavor reminiscent of childhood favorites!</p>
+            </div>
+            
+            <div class="product">
+                <img src="https://target.scene7.com/is/image/Target/GUEST_ecf8bbb7-f3b5-4ccc-8d0c-b87deadf66cc?wid=800&hei=800&qlt=80&fmt=pjpeg" alt="Black Cherry">
+                <p><strong>Black Cherry</strong></p>
+                <p>Deliciously rich and sweet black cherry flavor for a refreshing drink!</p>
+            </div>
+        </div>
+
+        <h3>Pricing</h3>
+        <p class="pricing">Enjoy our unbeatable prices:</p>
+        <ul>
+            <li><strong>Only $1 for 2 packs!</strong></li>
+            <li><strong>Or get 11 packs for just $5!</strong></li>
+        </ul>
+        <p>This is a fantastic value for the quality you receive. Stock up today and enjoy hydration whenever and wherever you need it!</p>
+
+        <h3>Order Now</h3>
+        <p>Don't wait any longer to transform your hydration game. Let's unlock a healthier, more energized lifestyle together! Click the button below to place your order now:</p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdWMN6_t4ODwr9cQiJaToJIK6wdElDEg9FhSoCgt3e-83rvOw/viewform?usp=sf_link" class="order-button" target="_blank">Order Now</a>
+
+        <h3>Testimonials</h3>
+        <p>Don't just take our word for it! Here's what some of our satisfied customers have to say:</p>
+        
+        <div class="testimonial">
+            <p class="rating">★★★★★</p>
+            <p>"Propel Paradise has become a staple in my workout routine. I love the flavors and how refreshed I feel after drinking it!" - Sarah T.</p>
+        </div>
+        <div class="testimonial">
+            <p class="rating">★★★★★</p>
+            <p>"As a busy professional, I rely on Propel Paradise to keep me energized throughout the day. The convenience and taste are unmatched!" - Jake L.</p>
+        </div>
+        <div class="testimonial">
+            <p class="rating">★★★★★</p>
+            <p>"Truly refreshing! I love the Watermelon flavor. It’s my go-to after workouts!" - Emma R.</p>
+        </div>
+        <div class="testimonial">
+            <p class="rating">★★★★★</p>
+            <p>"The perfect drink for my kids after sports practice. They love all the flavors!" - Mark D.</p>
+        </div>
+        <div class="testimonial">
+            <p class="rating">★★★★★</p>
+            <p>"I was surprised by how good Propel Paradise tastes. It's my new favorite hydration drink!" - Lisa M.</p>
+        </div>
+
+        <h3>Join the Propel Paradise Community</h3>
+        <p>When you choose Propel Paradise, you’re not just getting a drink; you're joining a community of health enthusiasts. Share your favorite flavors, workout tips, and experiences with us using the hashtag #PropelParadise on social media!</p>
+        
+        <footer>
+            <p>© 2024 Propel Paradise. All rights reserved. | <a href="privacy-policy.html" target="_blank">Privacy Policy</a> | <a href="terms-of-service.html" target="_blank">Terms of Service</a></p>
+        </footer>
+    </div>
+
+</body>
+</html>
